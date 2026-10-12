@@ -1,0 +1,17 @@
+[workspace]
+members = ["crates/ane-core", "crates/ane-app", "xtask"]
+resolver = "2"
+
+[workspace.package]
+version = "0.4.1"
+edition = "2021"
+license = "MIT"
+
+[profile.dev]
+debug = 0
+incremental = false
+
+[profile.release]
+strip = true
+lto = "thin"
+codegen-units = 1

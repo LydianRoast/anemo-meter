@@ -1,0 +1,6 @@
+[build]
+target-dir = "local/target"
+jobs = 2
+
+[alias]
+xtask = "run -p xtask --"

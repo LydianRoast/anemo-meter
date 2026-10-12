@@ -1,0 +1,5 @@
+received_at_utc,velocity_mps,temperature_c,humidity_percent,quality,source
+2026-10-12T13:00:00Z,0.3048,23.0,,valid,synthetic-example
+2026-10-12T13:00:01Z,0.4572,23.0,,valid,synthetic-example
+2026-10-12T13:00:02Z,0.6096,23.1,,valid,synthetic-example
+2026-10-12T13:00:03Z,,,,error,synthetic-example

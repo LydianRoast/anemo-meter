@@ -11,6 +11,7 @@ local.properties
 *.pdf
 The Basic Principals of Design/
 20??????_??????.jpg
+/[0-9]*.jpg
 .venv/
 venv/
 .idea/

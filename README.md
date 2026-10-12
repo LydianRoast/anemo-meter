@@ -67,7 +67,7 @@ See [Android build/install details](docs/ANDROID_INSTALL.md). Preserve the priva
 
 ## Evidence and limitations
 
-The packet profile was derived from the manual-identified AnemoMeter26 companion and checked against real zero-speed ANE-200W notifications. Nonzero comparison, full-range accuracy and physical phone operation require separate field validation. Compilation and automated tests are not instrument calibration.
+The packet profile was derived from the manual-identified AnemoMeter26 companion and checked against real zero-speed and nonzero ANE-200W notifications. A photographed 3.08 m/s reading (606.3 FPM) and 60.7% RH matched a nearby Bluetooth packet during a 173-packet nonzero capture. This supports decoding at the observed airflow; full-range accuracy and physical phone operation require separate field validation. Compilation and automated tests are not instrument calibration.
 
 [Protocol evidence](docs/PROTOCOL.md), [manual findings](docs/MANUAL_FINDINGS.md) and [the capture contract](docs/CAPTURE_CONTRACT.md) describe the known format and data boundaries. USB capture, instrument-memory retrieval and additional meter-setting commands are not implemented.
 

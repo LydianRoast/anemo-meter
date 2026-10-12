@@ -60,7 +60,7 @@ impl Measurement {
     }
 }
 
-/// Companion-app-derived layout, verified on real zero-speed packets only.
+/// Companion-app-derived layout, checked on real zero and nonzero packets.
 /// Bytes 9, 14, and 15 remain uninterpreted; no checksum or stored-record format is claimed.
 pub fn decode_packet(data: &[u8], context: ReadingContext) -> Result<Measurement> {
     if data.len() != 17 || data[..3] != [0xff, 0x57, 0x4c] || data[3] != 1 || data[16] != 0x3b {

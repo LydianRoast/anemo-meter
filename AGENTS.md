@@ -1,6 +1,6 @@
 # Working instructions
 
-Use clear, neutral language in public documentation and application messages. Do not include personal names, local drive letters, development-machine details or project-specific examples.
+Use clear, neutral language in public documentation and application messages. Exclude personal narrative, private paths, development-machine details and project-specific examples. Preserve required attribution, license notices and stable compatibility identifiers.
 
 Use literal hyphens (`-`), arrows (`->`), or traditional Roman numeral outlines for lists. Do not use thick bullet dots. In Markdown, escape a leading hyphen as `\-` so it remains a visible hyphen rather than rendering as a dot. Separate entries with blank lines for readable rendering.
 
@@ -33,3 +33,10 @@ Private captures, saved measurements, device identifiers, signing keys, vendor b
 Use ignored local directories for Cargo caches, targets, temporary files and Android tools. The Rust workspace contains `ane-core`, `ane-app` and `xtask`. Run meaningful Rust tests and build the actual Windows executable and Android APK when changing shipped behavior. Keep the signing certificate consistent for Android updates.
 
 Original code/documentation are MIT licensed. Preserve all dependency/font notices. Compilation, mocked tests, layout previews and signature verification do not establish physical Android operation or meter calibration. Report phone and nonzero/full-range validation separately.
+
+## Public history
+
+Use neutral commit messages and synthetic examples. Keep conversation logs and
+private operational notes outside public source and its history. Review every
+outgoing revision; deleting a file from the current tree does not remove its
+previous versions. Preserve required attribution and compatibility identifiers.
